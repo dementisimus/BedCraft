@@ -1,0 +1,10 @@
+name: BedCraft
+main: dev.dementisimus.bedcraft.BedCraftPlugin
+version: ${project.version}-${git.commit.id.describe-short}
+authors: [ dementisimus ]
+api-version: "1.21.8"
+dependencies:
+  server:
+    Autumn:
+      load: BEFORE
+      required: true
